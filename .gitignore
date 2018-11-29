@@ -11,7 +11,10 @@ build
 # /**匹配内部一切  abc/**匹配abc下面一切包括子目录
 #/*匹配当前目录下所有文件
 .git
-*~
+*\~
+**\*~
+hello.c\~
+hello.c\~
 *.exe
 *.obj
 CMakeFiles
